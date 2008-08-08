@@ -1,7 +1,7 @@
 Summary:        Manage your sim card contacts with pcsc reader
 Name:           monosim
 Version:        1.3.0.1
-Release:        %mkrel 3
+Release:        %mkrel 4
 License:        GPLv2
 Group:          Office
 Source:         http://www.integrazioneweb.com/monosim/packages/%{name}-%{version}.tar.gz

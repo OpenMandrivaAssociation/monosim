@@ -1,10 +1,11 @@
 Summary: Manage your SIM Card contacts
 Name: monosim
 Version: 1.5.2
-Release: %mkrel 1
+Release: %mkrel 2
 License: GPLv2
 Group: Office
 Source: http://www.integrazioneweb.com/repository/sources/%{name}-%{version}.tar.gz
+Patch0: monosim-1.5.2-fix-desktop-file.patch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
 URL: http://www.integrazioneweb.com/monosim
 
@@ -31,6 +32,7 @@ smartcard reader as towitoko, acs, athena, blutronics, etc.
 
 %prep
 %setup -q
+%patch0 -p0
 
 %build
 %configure2_5x

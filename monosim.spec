@@ -57,24 +57,32 @@ rm -rf %{buildroot}
 %{_datadir}/applications/%{name}.desktop
 
 
+
+
 %changelog
-* Sat Jul 18 2009 A.Basile <hmandevteam@gmail.com> 1.5.2-1mdv2010.0
-- bug fixed: issue 4/5 - fix verified (pin1 enable/disable)
-- bug fixed: issue 6 - fix verified (monosim on 64 bit)
-- bug fixed: issue 7 - fix verified (international numbers)
-- bug fixed: issue 8  - fix verified (closing main window)
-- bug fixed: cross compile compatibility (monodevelop, #develop)
-- deleted pkgconfig file for monopcsclib
-- modified monosim.desktop file (compliant to desktop-file-validate)
+* Mon Dec 06 2010 Oden Eriksson <oeriksson@mandriva.com> 1.5.2-3mdv2011.0
++ Revision: 612927
+- the mass rebuild of 2010.1 packages
+
+* Sat May 01 2010 Funda Wang <fwang@mandriva.org> 1.5.2-2mdv2010.1
++ Revision: 541455
+- fix desktop file
+
+* Sat Jul 18 2009 Armando Basile <hman@mandriva.org> 1.5.2-1mdv2010.0
++ Revision: 397204
+- bug fix release
+
+* Fri Aug 08 2008 Thierry Vignaud <tv@mandriva.org> 1.3.0.1-4mdv2009.0
++ Revision: 268148
+- rebuild early 2009.0 package (before pixel changes)
+
+* Wed Jun 04 2008 hman-it <hman-it> 1.3.0.1-3mdv2009.0
++ Revision: 214900
+- spec file changed
+- import monosim
 
 
-* Mon Apr 20 2009 A.Basile <hmandevteam@gmail.com> 1.4.0.1-1mdv2010.0
-- issue n.4 - add PIN1 enable/disable feature
-- settings filename changed in "~/.monosim"
-- settings file type changed in standard xml
-- no more require system.web
-
-* Mon Jul 02 2007 hman <hmandevteam@gmail.com> 1.3.0.1-4mdv2009.0
+* Thu May 06 2008 Armando Basile <hman@mandriva.org> 1.3.0.1-2mdv2009.0
 - bug fixed: Fixed wrong label position reference in language files
 - added support informations in language files
 - added xml settings file to store selected language

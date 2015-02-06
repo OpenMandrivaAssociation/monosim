@@ -4,7 +4,7 @@
 Summary:	Manage your SIM Card contacts
 Name:		monosim
 Version:	1.5.2
-Release:	4
+Release:	5
 License:	GPLv2+
 Group:		Office
 Url:		http://www.integrazioneweb.com/monosim

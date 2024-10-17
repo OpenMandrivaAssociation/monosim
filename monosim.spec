@@ -7,7 +7,7 @@ Version:	1.5.2
 Release:	5
 License:	GPLv2+
 Group:		Office
-Url:		http://www.integrazioneweb.com/monosim
+Url:		https://www.integrazioneweb.com/monosim
 Source0:	http://www.integrazioneweb.com/repository/sources/%{name}-%{version}.tar.gz
 Patch0:		monosim-1.5.2-fix-desktop-file.patch
 BuildRequires:	glade-sharp2 >= 2.8.3
